@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Tạo tài khoản Google</title>
+        <link rel="stylesheet" href="index.css">
+        <script language="javascript" src="index.js"></script>
+    </head>
+    <body>
+        <div class="Main">
+            <div class="Main_Content">
+                <div class="Logo">
+                     <img id="Logo_Google" src="https://banner2.cleanpng.com/20180712/eo/kisspng-google-logo-google-images-google-i-o-google-5b47002b426cc6.4939330615313797552721.jpg">
+                </div>
+                <div class="Collect">
+                    <span class="Span1">Tạo Tài Khoản Google</span>
+                    <form class="Form" onsubmit="validate(); return false;">
+                        <input type="text" id="lastName"  value="" placeholder="Họ" onclick="change_color()" />
+                        <input type="text" id="firstName"  value="" placeholder="Tên" onclick="change_color()" />
+                        <div class="email">
+                            <input type="email" id="useName" placeholder="Email" onclick="change_color()" >
+                            <div id="Text">Bạn có thể sử dụng chữ cái,số và dấu chấm</div>
+                        </div>
+                        <div link_email>
+                            <a class="link_email1" href="#">Sử dụng địa chỉ email hiện tại của tôi</a>
+                        </div>
+                        <div class="Confirm">
+                            <input type="password" id="password" autocomplete="new-password" placeholder="Mật Khẩu" onclick="change_color()" onkeyup="check(), password_strength()" >
+                            <input type="password"  id="confirm_password" autocomplete="new-password" placeholder="Xác Nhận" onclick="change_color()" onkeyup="check()" > <br>
+                            <span id="text2">Sử dụng 8 ký tự trở lên và kết hợp chữ cái, chữ số và biểu tượng</span>
+                            <div class="checkbox">
+                                <input id="checkbox1" type="checkbox" onclick="show_password()" >
+                                <div id="selection1">Hiện mật khẩu</div>
+                            </div>
+                        </div>
+                        <div class="login">
+                            <a id="login1" href="https://accounts.google.com/signin/v2/identifier?flowEntry=AddSession&flowName=GlifWebSignIn">Đăng Nhập</a>
+                            <button id="login2" type="submit">Tiếp theo</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <img id="logo_email" src="https://ssl.gstatic.com/accounts/signup/glif/account.svg">
+                    <figcaption class="caption">Một tài khoản. Hoạt động trên mọi <br> sản phẩm và dịch vụ của Google.</figcaption>
+                </div>
+            </div>
+        </div>    
+        <footer>
+            <ul class="Link3">
+                <li id="help"><a href="https://support.google.com/accounts?hl=vi#topic=3382296">Trợ giúp</a></li>
+                <li id="security"><a href="https://policies.google.com/privacy?gl=VN&hl=vi">Bảo mật</a></li>
+                <li id="rules"><a href="https://policies.google.com/terms?gl=VN&hl=vi">Điều khoản</a></li>
+            </ul>
+            <select name="language" id="language" onchange="">
+                <option>Tiếng Việt</option>
+                <option>English</option>
+            </select>
+        </footer>
+    </body>
+</html>

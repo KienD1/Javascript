@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+table {
+    position: absolute;
+    right: 520px;
+    font-size: large;
+    font-weight: 30px;
+}
+h1{
+    color: rgb(2, 83, 83);
+}
+#search_advance {
+    display: none;
+}
+#btn_search{
+    border-radius: 10px ;
+    font-style:oblique;
+    color: brown;
+    background-color: rgb(104, 238, 238);
+}

@@ -1,0 +1,215 @@
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.Main {
+    line-height: 2;
+    width: 800px;
+    height: 500px;
+    border: solid rgb(209, 223, 223) 1px;
+    border-radius: 20px;
+    padding: 48px 40px 36px;
+    margin: auto;
+    position: relative;
+}
+
+.Main_Content {
+    width: 500px;
+}
+
+#Logo_Google {
+    width: 130px;
+}
+
+.Span1 {
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#lastName {
+    width: 160px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 2px;
+}
+
+#useName {
+    width: 83%;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+#firstName {
+    width: 160px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 2px;
+    margin-left: 31px;
+}
+
+#Text {
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: small;
+    font-family: system-ui;
+}
+
+.link_email1 {
+    font-family: system-ui;
+}
+
+.Collect {
+    width: 440px;
+}
+
+.Form {
+    margin-top: 20px;
+}
+
+#logo_email {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 15px;
+    line-height: 1.4286;
+    text-align: center;
+    width: 244px;
+    height: 244px;
+    max-width: 100%;
+    box-sizing: inherit;
+}
+
+.Confirm {
+    margin-top: 30px;
+}
+
+#password {
+    width: 160px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 2px;
+}
+
+#confirm_password {
+    width: 160px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 2px;
+    margin-left: 30px;
+}
+
+#text2 {
+    font-family: system-ui;
+    font-size: small;
+}
+
+.Checkbox {
+    position: relative;
+}
+
+#selection1 {
+    position: absolute;
+    top:0px;
+    left: 30px;
+    font-family: system-ui;
+    font-weight: 490;
+}
+
+.login {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#login1{
+    font-family: system-ui;
+    font-size: 19px;
+    color: #1a73e8;
+    font-weight: 500;
+}
+
+#login2 {
+    float: right;
+    margin-left: 144px;
+    font-weight: 500;
+    font-family: system-ui;
+    background-color: #1a73e8;
+    width: 116px;
+    height: 37px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.link_email1 {
+        color: #1a73e8;
+        font-weight: 500;
+        text-decoration: none;
+        outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar {
+    position: absolute;
+    left: 589px;
+    top: 125px;
+    font-family: system-ui;
+    font-weight: 400;
+}
+
+footer {
+    display: inline-block;
+    font-family: system-ui;
+    font-size: 12px;
+    line-height: 1.4;
+    box-sizing: inherit;
+    position: relative;
+   
+}
+
+.Link3 {
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+a, a:hover, a:visited, a[href].uBOgn, button[type=button].uBOgn {
+    color: #1a73e8;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    outline: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+#help {
+    position: absolute;
+    right: -700px;
+}
+
+#security {
+    position: absolute;
+    left: 877px;
+    width: 100px;
+}
+
+#rules {
+    position: absolute;
+    width: 100px;
+    left: 1045px;
+}
+
+#language {
+    position: absolute;
+    left: 250px;
+}
